@@ -11,3 +11,5 @@ if __name__ == "__main__":
     data["svm1_score"] = model1.predict(data)["score"]
     data["neural1_score"] = model2.predict(data)["score"]
     data.to_csv("output.csv")
+
+ # bug fix 567 jira case
